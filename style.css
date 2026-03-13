@@ -8,7 +8,7 @@
 .container{
     width : 100%;
     min-height : 100vh;
-    background:url(images/bkgimg4x.jpg) no-repeat;
+    background:url(bkgimg4x.jpg) no-repeat;
     background-size:cover;
     position : fixed;
     padding : 10px;
@@ -88,7 +88,7 @@ ul li::before{
     height : 28px;
     width : 28px;
     border-radius : 50%;
-    background-image : url(images/unchecked4x.jpg);
+    background-image : url(unchecked4x.jpg);
     background-size : cover;
     background-position : center;
     top : 8px;
@@ -101,7 +101,7 @@ ul li.checked{
 }
 
 ul li.checked::before{
-    background-image : url(images/checked4x.png);
+    background-image : url(checked4x.png);
 }
 
 ul li span{
